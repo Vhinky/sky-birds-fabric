@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.vhinky.skybirds.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ParticleEngineMixin",
+    "SoundManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
