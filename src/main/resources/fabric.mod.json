@@ -4,11 +4,12 @@
   "version": "${version}",
   "name": "Sky Birds",
   "description": "Ambient birds in the sky. Flocks, V-formations, circling hawks and starling murmurations that react to weather, time of day and explosions.",
-  "authors": ["vhinky"],
+  "authors": ["Vhinky"],
   "contact": {
     "sources": "https://github.com/Vhinky/sky-birds-fabric"
   },
   "license": "LGPL-3.0-only",
+  "icon": "assets/sky_birds/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": ["com.vhinky.skybirds.SkyBirds"],
@@ -22,7 +23,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.16.0",
-    "minecraft": "~1.21.1",
+    "minecraft": "1.21.1",
     "java": ">=21",
     "fabric-api": "*"
   }

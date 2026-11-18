@@ -13,6 +13,15 @@ base {
 repositories {
 }
 
+loom {
+    runs {
+        server {
+            // своя папка, чтобы сервер не подхватывал клиентские моды (Sodium, Iris) из run/mods
+            runDir "run-server"
+        }
+    }
+}
+
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     // Мапинги Mojang — те же имена классов, что в NeoForge, поэтому код птиц общий
